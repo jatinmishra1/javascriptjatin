@@ -18,3 +18,4 @@ let multiply=function(x){
 
 let multiplebythree=multiply(2);
 multiplebythree(3);
+//see we are getting results 
