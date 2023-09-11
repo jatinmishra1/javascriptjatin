@@ -14,17 +14,17 @@
     </div>
 </div>
 
-document.querySelector("grandparent").
+document.querySelector("#grandparent").
 addEventListener("click",()=>{
     console.log("grand parent clicked")
 })
 
-document.querySelector("parent").
+document.querySelector("#parent").
 addEventListener("click",()=>{
     console.log(" parent clicked")
 })
 
-document.querySelector("child").
+document.querySelector("#child").
 addEventListener("click",()=>{
     console.log("childt clicked")
 })
@@ -37,7 +37,7 @@ addEventListener("click",()=>{
 
 //we have third parameter in addEventListener also whcih is by default false,if we make thatrue it will act like capturign
 
-document.querySelector("child").
+document.querySelector("#child").
 addEventListener("click",()=>{
     console.log("childt clicked")
 },true)
@@ -50,17 +50,17 @@ addEventListener("click",()=>{
 
 
 
-document.querySelector("grandparent").
+document.querySelector("#grandparent").
 addEventListener("click",()=>{
     console.log("grand parent clicked")
 },true)//capturing
 
-document.querySelector("parent").
+document.querySelector("#parent").
 addEventListener("click",()=>{
     console.log(" parent clicked")
 },false)//bubbling
 
-document.querySelector("child").
+document.querySelector("#child").
 addEventListener("click",()=>{
     console.log("childt clicked")
 },true)//capturing
@@ -76,8 +76,8 @@ addEventListener("click",()=>{
 
 //as bubbling and capturing are quite expensive things we have to stop it some time  howww??
 // so we use e.stopPropogation();
-document.querySelector("child").
-addEventListener("click",()=>{
+document.querySelector("#child").
+addEventListener("click",(e)=>{
     console.log("childt clicked")
     e.stopPropogation();
 },true)//capturing
