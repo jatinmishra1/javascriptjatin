@@ -19,3 +19,12 @@ addEventListener("click",(e)=>{
 console.log(e.target.id)
 
 })
+
+//Advantages
+//1-less use of memory
+//2-more efficient
+//3-less code
+//4-less dom manipulation
+
+//limitations
+//1-all the events are not bubbled up  like blur ,focus,resizing of window etc
