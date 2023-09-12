@@ -33,6 +33,6 @@ let object2={
 
 object2.__proto__=object;
 // console.log(object2.__proto__);
-
+// so  this is how object2 is inheriting propeties of object 1
 // as you can se we have chnaged the prototype of our object
 console.log(object2.city)
