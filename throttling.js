@@ -20,6 +20,7 @@ window.addEventListener("resize",betterExpensive);
 
 const throttle=(expensive,limit)=>{
     let flag=true;
+    //it is imp because we have use closure  for flag 
 return function(){
     if(flag){
         expensive();
