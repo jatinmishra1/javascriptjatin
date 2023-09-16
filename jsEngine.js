@@ -18,3 +18,38 @@
 //inlining
 //inline caching
 //copy ehision
+
+
+//reduce function
+const arr=[1,2,13,4,5,6];
+const sum=arr.reduce((acc,curr)=>{
+    acc=acc+curr;
+    return acc;
+},200);
+console.log(sum);
+
+//filter method
+const nums=arr.filter((num)=>{
+return num>2
+})
+console.log(nums)
+
+//map function
+const f_map=arr.map((nums)=>{
+return nums=nums*2;
+})
+console.log(f_map)
+//hence you can see mapnever changes the original array
+//filter method
+const numst=arr.filter((num)=>{
+    return num>2
+    })
+    console.log(numst)
+
+    const max_val=arr.reduce((acc,curr)=>{
+        if(curr>acc){
+            acc=curr;
+        }
+        return acc;
+    })
+    console.log(max_val)
