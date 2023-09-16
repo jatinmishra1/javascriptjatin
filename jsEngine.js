@@ -7,5 +7,14 @@
 
 //then comes compilation and execution stage
 //there are two things interpreter and compiler
-//so js and used both as interpreter and copiler and thats why it is called as just in time cpilation laguage and it all depends on js engine
+//so js and used both as interpreter and copiler and thats why it is called as just in time compilation laguage and it all depends on js engine
 //how to use ,js can also be used only as compiler or interepreter or both
+
+//and these all are done using memroy heap and call stack
+
+
+
+//Read about Mark and sweep algorithm
+//inlining
+//inline caching
+//copy ehision

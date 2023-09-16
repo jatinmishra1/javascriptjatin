@@ -35,3 +35,4 @@ const dd=function b(){
 
 //functions are first class citizena ----so ability to use functions as values thats  why they are also know ans first class citizens
 
+//funtion which takes functions as argumenst are return sfunction are known as higher order functions
