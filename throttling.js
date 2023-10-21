@@ -2,7 +2,8 @@
 //something like debouncing
 
 const expensive=function(){
-    console.log("expensive");
+    // console.log("expensive");
+
 }
 window.addEventListener("resize",expensive());
 //so as you can see on resizing the window each and every time this event will be fired and expensive function will be called

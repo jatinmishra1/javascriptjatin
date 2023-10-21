@@ -39,7 +39,7 @@ const f_map=arr.map((nums)=>{
 return nums=nums*2;
 })
 console.log(f_map)
-//hence you can see mapnever changes the original array
+//hence you can see map never changes the original array
 //filter method
 const numst=arr.filter((num)=>{
     return num>2

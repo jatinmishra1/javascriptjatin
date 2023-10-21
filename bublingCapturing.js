@@ -35,7 +35,7 @@ addEventListener("click",()=>{
 //grand parent clicked
 // you can see output is from inwards to outwars this is what known as bubbling
 
-//we have third parameter in addEventListener also whcih is by default false,if we make thatrue it will act like capturign
+//we have third parameter in addEventListener also whcih is by default false,if we make that true it will act like capturing
 
 document.querySelector("#child").
 addEventListener("click",()=>{
